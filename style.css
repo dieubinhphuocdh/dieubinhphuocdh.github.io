@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@font-face {
+    font-family: 'another shabby';
+    src: url('font/anothershabby.woff2') format('woff2'),
+        url('font/anothershabby.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.bg{
+    width: 102vw;
+    height: 102vh;
+    position: fixed;
+    background: url(img/background.jpg);
+    filter: blur(5px);
+    top: -1vh;
+    left: -1vw;
+    background-size: cover;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    position: -webkit-sticky;
+    position: sticky;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.head {display: flex;flex-direction: column;align-items: center;}
+
+.body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    min-width: 600px;
+}
+
+.link {
+    margin: 30px auto;
+    width: 130px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+}
+
+.panel {
+    background: rgb(229 206 144 / 75%);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgb(0 0 0 / 60%) 3px 3px 7px 0px;
+}
+
+.logo {
+    width: 90px;
+}
+
+h4 {
+    margin-top: 10px;
+}
+
+body {
+    font-family: Roboto;
+}
+
+.main-logo {
+    width: 130px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+h3 {
+}
+
+.slogan {
+    margin-bottom: 20px;
+    font-family: another shabby;
+    font-size: larger;
+}
